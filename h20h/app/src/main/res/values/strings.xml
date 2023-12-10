@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">H204H</string>
+    <string name="button">Button</string>
+    <string name="title_activity_th">th</string>
+    <string name="tab_text_1">Daily</string>
+    <string name="tab_text_2">Weekly</string>
+    <string name="tab_text_3">Monthly</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_h2_o4_h">H2O4H</string>
+    <string name="for_you">For You</string>
+</resources>

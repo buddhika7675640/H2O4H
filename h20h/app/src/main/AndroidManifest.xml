@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.H204H">
+    <!-- <uses-permission android:name="android.permission.BLUETOOTH" /> -->
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission
+        android:name="android.permission.BLUETOOTH"
+        android:required="false" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+
+
+
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.H2o">
+        <activity
+            android:name="com.example.H204H.dfdd"
+            android:exported="false" />
+        <activity
+            android:name="com.example.H204H.badmonth"
+            android:exported="false" />
+        <activity
+            android:name="com.example.H204H.goodmonth"
+            android:exported="false" />
+        <activity
+            android:name="com.example.H204H.badweek"
+            android:exported="false" />
+        <activity
+            android:name="com.example.H204H.goodweek"
+            android:exported="false" />
+        <activity
+            android:name="com.example.H204H.badday"
+            android:exported="false" />
+        <activity
+            android:name="com.example.H204H.goodday"
+            android:exported="false" />
+        <activity
+            android:name="com.example.H204H.H2O4H"
+            android:exported="false"
+            android:label="@string/title_activity_h2_o4_h"
+            android:theme="@style/Theme.H2o.NoActionBar" />
+        <activity
+            android:name="com.example.H204H.hcc"
+            android:exported="false" />
+        <activity
+            android:name="com.example.H204H.hc"
+            android:exported="false" />
+        <activity
+            android:name="com.example.H204H.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.example.H204H.NotificationService"
+            android:label="@string/app_name"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="your.app.domain.NotificationService" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+
+
+
+    </application>
+
+</manifest>
